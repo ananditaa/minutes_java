@@ -1,0 +1,23 @@
+package minutes;
+
+import java.util.Scanner;
+
+public class Minutes {
+   
+    public static void main(String[] args) {
+        System.out.println("Input the number of minutes: ");
+        int m;
+        Scanner s = new Scanner(System.in);
+        m = s.nextInt();
+        int d1 = m/1440;
+        int y = d1/365;
+        int d = d1-(y*365);
+        System.out.println(m+" minutes is approximately "+y+" years and "+d+" days");
+        
+        
+    }
+
+    
+      
+        
+    }
